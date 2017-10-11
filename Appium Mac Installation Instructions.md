@@ -114,7 +114,7 @@
 	* If there are things missing please go back to the install instructions above or environment variable setup.
 
 ### Install Appium via NPM
-* Run `$ npm install -g appium`
+* Run `$ npm install -g appium` if it does not work because of python path error, try: PYTHON=/usr/bin/python npm install -g appium
 	* Verify appium installed correctly by doing `$ appium -v`
 
 ### Install Sublime (We should all use same editor)
